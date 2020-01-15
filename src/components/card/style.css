@@ -1,0 +1,11 @@
+.card {
+  height: 220px;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+
+.modele-photo {
+  height: 200px;
+  width: 150px;
+}

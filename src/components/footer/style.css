@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 12px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.footer-item {
+  font-size: 20px;
+  color: #242424;
+}

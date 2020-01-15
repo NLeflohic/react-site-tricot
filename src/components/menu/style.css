@@ -1,0 +1,15 @@
+.menu {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+.menu-item {
+  font-family: "Amaranth";
+  font-size: 30px;
+  color: #242424;
+}
+.icon {
+  height: 32px;
+  width: 32px;
+}
