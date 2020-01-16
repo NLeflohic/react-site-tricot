@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { MemoryRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/header";
+import Footer from "./components/footer";
 import Menu from "./components/menu";
 import HomePicture from "./components/homePicture";
 import ModelesTricots from "./containers/ModelesTricots";
+import Contact from "./containers/Contact";
 import "./reset.css";
 import "./App.css";
 
@@ -11,9 +13,9 @@ function App() {
   const [homePage, setHomePage] = useState(true);
   return (
     <>
-      <Header />
-      <section>
-        <Router>
+      <Router>
+        <Header />
+        <div className="page-container">
           <Menu homePage={homePage} setHomePage={setHomePage} />
           {homePage ? (
             <HomePicture />
@@ -41,12 +43,13 @@ function App() {
                 <ModelesTricots categorie="accessoires" />
               </Route>
               <Route path="/contact">
-                <ModelesTricots categorie="accessoires" />
+                <Contact />
               </Route>
             </Switch>
           )}
-        </Router>
-      </section>
+        </div>
+        <Footer homePage={homePage} setHomePage={setHomePage} />
+      </Router>
     </>
   );
 }

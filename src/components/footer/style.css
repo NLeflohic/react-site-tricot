@@ -1,11 +1,13 @@
 .footer {
-  margin-top: 12px;
   display: -webkit-flex;
   display: flex;
   justify-content: space-around;
-  font-size: 20px;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  overflow: hidden;
 }
-
 .footer-item {
   font-size: 20px;
   color: #242424;

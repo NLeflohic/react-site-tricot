@@ -13,3 +13,7 @@
   height: 32px;
   width: 32px;
 }
+
+.selected {
+  text-decoration: underline;
+}

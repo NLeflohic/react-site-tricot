@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../../images/tara-picture.jpg";
-import Footer from "../footer";
+// import Footer from "../footer";
 import "./style.css";
 
 const HomePicture = () => {
@@ -10,7 +10,7 @@ const HomePicture = () => {
         <img className="picture" src={image} alt="home" />
         <span>Photo by Tara Evans on Unsplash</span>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

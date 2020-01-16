@@ -1,10 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Amaranth:400,700&display=swap");
 
-body {
+html {
   background-color: #d9d9d9;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .wrapper {
   margin-left: 250px;
   margin-right: 250px;
+}
+
+.mg-top {
+  margin-top: 48px;
+}
+
+.page-container {
+  min-height: 100%;
 }

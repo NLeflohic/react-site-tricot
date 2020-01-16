@@ -1,0 +1,52 @@
+.contact {
+  width: 100%;
+}
+
+.contact-form {
+  margin-left: 100px;
+  margin-right: 100px;
+  width: 100%;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-family: "Amaranth";
+  font-size: 20px;
+}
+
+.form-group {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  padding: 10px;
+}
+
+.button-div {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-top: 12px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.left-side-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 48px;
+  font-family: "Amaranth";
+  font-size: 20px;
+}
+
+.left-side-container h2 {
+  margin-bottom: 12px;
+  font-size: 25px;
+}
